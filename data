@@ -55,6 +55,6 @@ display(gold_df)
 gold_df.write \
     .format("delta") \
     .mode("overwrite") \
-    .saveAsTable("workspace.default.gold_customer_countryy")
+    .saveAsTable("workspace.default.gold_customer_countryyy")
 SELECT *
-FROM workspace.default.gold_customer_countryy;
+FROM workspace.default.gold_customer_countryyy;
